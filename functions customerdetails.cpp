@@ -6,6 +6,24 @@ struct CustomerDetails{
     double invoiceAmount;
     int invoiceNumber;
 };
+void getMaxInvoiceAmount(CustomerDetails customer1, customer2 ,customer3, customer4, customer5){
+    double maxInvoiceAmount = invoiceAmounts[0];
+    for(int i = 0; i < 5; i++){
+        if(invoiceAmounts[i] > maxInvoiceAmount){
+            maxInvoiceAmount = invoiceAmounts[i];
+			//cout << "Invoice Amount: " << customer1.customerName << endl;
+            cout << "Maximum Invoice Amount: " << maxInvoiceAmount << endl;
+        }
+    }
+    for(int i = 0; i < 5; i++){
+        if(invoiceAmounts[i] <= maxInvoiceAmount){
+            cout << "Customer name: " << customer1.customerName << endl;
+           
+        }
+      
+    }
+       cout << "Invoice Amount: " << maxInvoiceAmount << endl;
+}
 
 int main(){
     //Get customer details from the user
@@ -50,7 +68,9 @@ int main(){
     cin >> customer5.invoiceNumber;
     cout << "********************************************************" << endl;
 
-    //Save the invoice amounts in an array
+	getMaxInvoiceAmount(customer1, customer2 ,customer3, customer4, customer5)
+    return 0;
+ /*  //Save the invoice amounts in an array
     double invoiceAmounts[] = {customer1.invoiceAmount, customer2.invoiceAmount, customer3.invoiceAmount, customer4.invoiceAmount};
 
     //find the maximum invoice amount and print the customer name and invoice number
@@ -69,7 +89,6 @@ int main(){
         }
       
     }
-       cout << "Invoice Amount: " << maxInvoiceAmount << endl;
-    return 0;
+       cout << "Invoice Amount: " << maxInvoiceAmount << endl;*/
 
 }
