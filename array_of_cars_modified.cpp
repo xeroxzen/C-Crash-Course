@@ -14,13 +14,15 @@ int main(){
         {"Nissan", "Leaf", "2020", "Green"}
     };
 
-    //print out the car names
+    //print the car names along with labels name, model, year and color
+    cout << "Name" << "\t" << "Model" << "\t" << "Year" << "\t" << "Color" << endl;
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {
-            cout << cars[i][j] << " ";
+            cout << cars[i][j] << "\t";
         }
         cout << endl;
     }
+
     return 0;
 
 }

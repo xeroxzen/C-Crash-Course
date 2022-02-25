@@ -10,9 +10,10 @@ int main(){
     int numberOfCars = 5;
     string cars[numberOfCars] = { "Tesla", "Ford", "Honda", "Toyota", "Nissan" };
 
-    //print out the car names
+    //print the car names and a counter for each car in the array starting at 1
+    cout << "Car #" << "\t" << "Name" << endl;
     for (int i = 0; i < numberOfCars; i++) {
-        cout << cars[i] << endl;
+        cout << i + 1 << "\t" << cars[i] << endl;
     }
     return 0;
 }
