@@ -1,0 +1,5 @@
+ID		Name		Grade 
+1345		Mary		3.6
+7764		Kuda		7
+3324		Tom		3.2
+4277		Edson		6.2
