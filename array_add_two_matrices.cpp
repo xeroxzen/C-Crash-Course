@@ -23,6 +23,9 @@ int main() {
         {1, 0, 1, 0, 1}
     };
 
+    //Declare a variable to hold the added matrix
+//    int matrix3[numberOfMatrices][numberOfMatrices] = {}; 
+
     //Add the matrix to the other matrix and print the result
     for (int i = 0; i < numberOfMatrices; i++) {
         for (int j = 0; j < numberOfMatrices; j++) {
