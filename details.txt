@@ -1,0 +1,14 @@
+Name: Andile
+Age: 21
+Address: Luveve
+Phone Number: 0778613888
+Email: andilembele001@gmail.com
+GenderMale
+Date of Birth03/12/1998
+CourseIT
+Gender: Male
+Date of Birth: 3
+Course: December
+Gender: Male
+Date of Birth: 03/12/1998
+Course: IT
