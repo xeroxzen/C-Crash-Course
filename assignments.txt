@@ -1,0 +1,54 @@
+EXERCISES
+
+1. Check if an Integer is Divisible by five
+
+Instructions
+
+Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
+
+Examples
+divisibleByFive(5) ➞ true
+
+divisibleByFive(-55) ➞ true
+
+divisibleByFive(37) ➞ false
+
+*NB:* Don't forget to return the result.
+
+
+2. Convert Minutes into seconds
+
+Write a function that takes an integer minutes and converts it to seconds.
+
+Examples
+convert(5) ➞ 300
+
+convert(3) ➞ 180
+
+convert(2) ➞ 120
+
+
+3. Convert Age to Days
+
+Create a function that takes the age in years and returns the age in days.
+
+Examples
+calc_age(65) ➞ 23725
+
+calc_age(0) ➞ 0
+
+calc_age(20) ➞ 7300
+
+Notes
+Use 365[forget about leap years] days as the length of a year for this challenge.
+
+
+4. Arrays
+
+Take 20 integer inputs from user and print the following:
+
+1. number of positive numbers
+2. number of negative numbers
+3. number of odd numbers
+4. number of even numbers
+number of 0.
